@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+[
+    /* dividir 2 numeros que el usuario necesite */
+    int n1,n2, div=0;
+
+    printf("digite el primer numero: ");
+    scanf("%i",&n1);
+    printf("digite el segundo numero: ");
+    scantf("%i",&n2);
+
+    div= n1 / n2;
+
+    printf("la div es: %i", div);
+
+    return 0;
+]   
