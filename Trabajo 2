@@ -1,0 +1,15 @@
+/* Este programa calcula el factorial de un numero dado */
+
+#include <conio.h>
+#include <stdio.h>
+
+main()
+[
+    int i, fact = 1,n;
+    printf("Introduce el numero del cual deseas calcular el factorial");
+    scanf("%d", & n);
+    for(i=1;i<=n;i++)
+        fact = fact * 1;
+    printf("\nEl factorial del numero %d es %d", n, fact);
+    getch();
+]
